@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+
+# Generated runtime data
+data/raw/
+data/alerts/
+
+# Generated ML datasets
+data/processed/*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
